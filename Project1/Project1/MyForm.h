@@ -192,13 +192,18 @@ namespace Project1 {
 			// 
 			// BtnClick
 			// 
-			this->BtnClick->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18.25F));
+			this->BtnClick->BackColor = System::Drawing::SystemColors::HotTrack;
+			this->BtnClick->Cursor = System::Windows::Forms::Cursors::Cross;
+			this->BtnClick->Font = (gcnew System::Drawing::Font(L"Myanmar Text", 20.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->BtnClick->ForeColor = System::Drawing::SystemColors::ButtonFace;
 			this->BtnClick->Location = System::Drawing::Point(37, 25);
 			this->BtnClick->Name = L"BtnClick";
-			this->BtnClick->Size = System::Drawing::Size(209, 61);
+			this->BtnClick->Size = System::Drawing::Size(289, 61);
 			this->BtnClick->TabIndex = 0;
-			this->BtnClick->Text = L"Cambiar Texto";
-			this->BtnClick->UseVisualStyleBackColor = true;
+			this->BtnClick->Text = L"Cambiar Texto UMG";
+			this->BtnClick->UseVisualStyleBackColor = false;
+			this->BtnClick->Visible = false;
 			this->BtnClick->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// lblMensaje
@@ -796,10 +801,10 @@ namespace Project1 {
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 
 		//agregar #include  "MyForm2.h"
-		
+	MyForm2^ f2 = gcnew MyForm2();
 	MyForm2^ f = gcnew MyForm2("Hola UMG PROGRA 1"); //creamos la instancia del formulario 2
 	f->Show(); //mostrar el formulario
-
+	f2->Show();
 
 }
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
