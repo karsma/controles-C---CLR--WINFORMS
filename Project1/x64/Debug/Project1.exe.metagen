@@ -15,6 +15,44 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 	hash=None, flags=None
 Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
+Class Empleado: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Double SalarioBase 'get set' : 
+    System.String Nombre 'get set' : 
+    Int32 Id   'get set' : 
+  Methods:
+    get_Id(): PrivateScope, Public, HideBySig, SpecialName
+    set_Id(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Nombre(): PrivateScope, Public, HideBySig, SpecialName
+    set_Nombre(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SalarioBase(): PrivateScope, Public, HideBySig, SpecialName
+    set_SalarioBase(Double): PrivateScope, Public, HideBySig, SpecialName
+    CalcularSalario(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Desarrollador: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Empleado
+    Void .ctor(Int32, System.String, Double, Int32, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Double ValorPorLinea 'get set' : 
+    Int32 LineasCodigo 'get set' : 
+  Methods:
+    get_LineasCodigo(): PrivateScope, Public, HideBySig, SpecialName
+    set_LineasCodigo(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ValorPorLinea(): PrivateScope, Public, HideBySig, SpecialName
+    set_ValorPorLinea(Double): PrivateScope, Public, HideBySig, SpecialName
+    CalcularSalario(): PrivateScope, Public, Virtual, HideBySig
+Class Gerente: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Empleado
+    Void .ctor(Int32, System.String, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Double Bono 'get set' : 
+  Methods:
+    get_Bono(): PrivateScope, Public, HideBySig, SpecialName
+    set_Bono(Double): PrivateScope, Public, HideBySig, SpecialName
+    CalcularSalario(): PrivateScope, Public, Virtual, HideBySig
 Class Project1.MyForm2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

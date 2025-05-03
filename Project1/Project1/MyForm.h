@@ -105,6 +105,61 @@ namespace Project1 {
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ cl_Apellidos;
 	private: System::Windows::Forms::DataGridViewCheckBoxColumn^ cl_Activo;
 	private: System::Windows::Forms::Button^ btnAgregarAFila;
+	private: System::Windows::Forms::TabControl^ tabControl1;
+	private: System::Windows::Forms::TabPage^ tabPage1;
+	private: System::Windows::Forms::TabPage^ tabPage2;
+	private: System::Windows::Forms::GroupBox^ groupBox9;
+	private: System::Windows::Forms::DataGridView^ dataGridView2;
+	private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn4;
+	private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn5;
+	private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn6;
+	private: System::Windows::Forms::DataGridViewCheckBoxColumn^ dataGridViewCheckBoxColumn2;
+	private: System::Windows::Forms::Button^ button6;
+	private: System::Windows::Forms::CheckBox^ checkBox3;
+	private: System::Windows::Forms::Label^ label28;
+	private: System::Windows::Forms::TextBox^ textBox7;
+	private: System::Windows::Forms::Label^ label29;
+	private: System::Windows::Forms::Label^ label30;
+	private: System::Windows::Forms::Label^ label31;
+
+	private: System::Windows::Forms::TextBox^ textBox8;
+	private: System::Windows::Forms::TextBox^ textBox9;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	private: System::Windows::Forms::GroupBox^ groupBox7;
+
+
+	private: System::Windows::Forms::Label^ label18;
+	private: System::Windows::Forms::TextBox^ textBox1;
+	private: System::Windows::Forms::Label^ label19;
+	private: System::Windows::Forms::Label^ label20;
+	private: System::Windows::Forms::Label^ label21;
+
+	private: System::Windows::Forms::TextBox^ textBox2;
+private: System::Windows::Forms::TextBox^ txtIDGERENTE;
+
+private: System::Windows::Forms::Label^ label22;
+private: System::Windows::Forms::TextBox^ textBox10;
+private: System::Windows::Forms::DataGridView^ dataGridView1;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn1;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn2;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^ dataGridViewTextBoxColumn3;
+private: System::Windows::Forms::DataGridViewCheckBoxColumn^ dataGridViewCheckBoxColumn1;
 
 
 
@@ -182,12 +237,52 @@ namespace Project1 {
 			this->cl_Nombres = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->cl_Apellidos = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->cl_Activo = (gcnew System::Windows::Forms::DataGridViewCheckBoxColumn());
+			this->tabControl1 = (gcnew System::Windows::Forms::TabControl());
+			this->tabPage1 = (gcnew System::Windows::Forms::TabPage());
+			this->tabPage2 = (gcnew System::Windows::Forms::TabPage());
+			this->groupBox9 = (gcnew System::Windows::Forms::GroupBox());
+			this->dataGridView2 = (gcnew System::Windows::Forms::DataGridView());
+			this->dataGridViewTextBoxColumn4 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+			this->dataGridViewTextBoxColumn5 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+			this->dataGridViewTextBoxColumn6 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+			this->dataGridViewCheckBoxColumn2 = (gcnew System::Windows::Forms::DataGridViewCheckBoxColumn());
+			this->button6 = (gcnew System::Windows::Forms::Button());
+			this->checkBox3 = (gcnew System::Windows::Forms::CheckBox());
+			this->label28 = (gcnew System::Windows::Forms::Label());
+			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
+			this->label29 = (gcnew System::Windows::Forms::Label());
+			this->label30 = (gcnew System::Windows::Forms::Label());
+			this->label31 = (gcnew System::Windows::Forms::Label());
+			this->textBox8 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox9 = (gcnew System::Windows::Forms::TextBox());
+			this->groupBox7 = (gcnew System::Windows::Forms::GroupBox());
+			this->label22 = (gcnew System::Windows::Forms::Label());
+			this->textBox10 = (gcnew System::Windows::Forms::TextBox());
+			this->label18 = (gcnew System::Windows::Forms::Label());
+			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
+			this->label19 = (gcnew System::Windows::Forms::Label());
+			this->label20 = (gcnew System::Windows::Forms::Label());
+			this->label21 = (gcnew System::Windows::Forms::Label());
+			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
+			this->txtIDGERENTE = (gcnew System::Windows::Forms::TextBox());
+			this->dataGridView1 = (gcnew System::Windows::Forms::DataGridView());
+			this->dataGridViewTextBoxColumn1 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+			this->dataGridViewTextBoxColumn2 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+			this->dataGridViewTextBoxColumn3 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+			this->dataGridViewCheckBoxColumn1 = (gcnew System::Windows::Forms::DataGridViewCheckBoxColumn());
 			this->groupBox1->SuspendLayout();
 			this->groupBox2->SuspendLayout();
 			this->groupBox3->SuspendLayout();
 			this->groupBox4->SuspendLayout();
 			this->groupBox5->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->grdListadoPersonal))->BeginInit();
+			this->tabControl1->SuspendLayout();
+			this->tabPage1->SuspendLayout();
+			this->tabPage2->SuspendLayout();
+			this->groupBox9->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->BeginInit();
+			this->groupBox7->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// BtnClick
@@ -256,7 +351,7 @@ namespace Project1 {
 			this->groupBox1->Controls->Add(this->lblMensaje);
 			this->groupBox1->Controls->Add(this->button2);
 			this->groupBox1->Controls->Add(this->button1);
-			this->groupBox1->Location = System::Drawing::Point(12, 12);
+			this->groupBox1->Location = System::Drawing::Point(18, 28);
 			this->groupBox1->Name = L"groupBox1";
 			this->groupBox1->Size = System::Drawing::Size(382, 373);
 			this->groupBox1->TabIndex = 5;
@@ -284,7 +379,7 @@ namespace Project1 {
 			this->groupBox2->Controls->Add(this->txtResultado);
 			this->groupBox2->Controls->Add(this->txtNum2);
 			this->groupBox2->Controls->Add(this->txtNum1);
-			this->groupBox2->Location = System::Drawing::Point(414, 25);
+			this->groupBox2->Location = System::Drawing::Point(425, 34);
 			this->groupBox2->Name = L"groupBox2";
 			this->groupBox2->Size = System::Drawing::Size(408, 360);
 			this->groupBox2->TabIndex = 6;
@@ -484,7 +579,7 @@ namespace Project1 {
 			this->groupBox3->Controls->Add(this->btnAgregarAlComboBox);
 			this->groupBox3->Controls->Add(this->txtAgregarAlCmb);
 			this->groupBox3->Controls->Add(this->cmbListaInformacion);
-			this->groupBox3->Location = System::Drawing::Point(843, 37);
+			this->groupBox3->Location = System::Drawing::Point(860, 34);
 			this->groupBox3->Name = L"groupBox3";
 			this->groupBox3->Size = System::Drawing::Size(235, 348);
 			this->groupBox3->TabIndex = 7;
@@ -613,7 +708,7 @@ namespace Project1 {
 			this->groupBox4->Controls->Add(this->label16);
 			this->groupBox4->Controls->Add(this->txtNombresGRD);
 			this->groupBox4->Controls->Add(this->txtID);
-			this->groupBox4->Location = System::Drawing::Point(16, 393);
+			this->groupBox4->Location = System::Drawing::Point(18, 416);
 			this->groupBox4->Name = L"groupBox4";
 			this->groupBox4->Size = System::Drawing::Size(378, 189);
 			this->groupBox4->TabIndex = 8;
@@ -716,7 +811,7 @@ namespace Project1 {
 			// groupBox5
 			// 
 			this->groupBox5->Controls->Add(this->grdListadoPersonal);
-			this->groupBox5->Location = System::Drawing::Point(414, 393);
+			this->groupBox5->Location = System::Drawing::Point(420, 400);
 			this->groupBox5->Name = L"groupBox5";
 			this->groupBox5->Size = System::Drawing::Size(583, 189);
 			this->groupBox5->TabIndex = 9;
@@ -759,16 +854,323 @@ namespace Project1 {
 			this->cl_Activo->Name = L"cl_Activo";
 			this->cl_Activo->ReadOnly = true;
 			// 
+			// tabControl1
+			// 
+			this->tabControl1->Controls->Add(this->tabPage1);
+			this->tabControl1->Controls->Add(this->tabPage2);
+			this->tabControl1->Location = System::Drawing::Point(12, 12);
+			this->tabControl1->Name = L"tabControl1";
+			this->tabControl1->SelectedIndex = 0;
+			this->tabControl1->Size = System::Drawing::Size(1343, 738);
+			this->tabControl1->TabIndex = 10;
+			// 
+			// tabPage1
+			// 
+			this->tabPage1->Controls->Add(this->groupBox1);
+			this->tabPage1->Controls->Add(this->groupBox3);
+			this->tabPage1->Controls->Add(this->groupBox5);
+			this->tabPage1->Controls->Add(this->groupBox4);
+			this->tabPage1->Controls->Add(this->groupBox2);
+			this->tabPage1->Location = System::Drawing::Point(4, 22);
+			this->tabPage1->Name = L"tabPage1";
+			this->tabPage1->Padding = System::Windows::Forms::Padding(3);
+			this->tabPage1->Size = System::Drawing::Size(1335, 712);
+			this->tabPage1->TabIndex = 0;
+			this->tabPage1->Text = L"USO DE CONTROLES";
+			this->tabPage1->UseVisualStyleBackColor = true;
+			// 
+			// tabPage2
+			// 
+			this->tabPage2->Controls->Add(this->groupBox9);
+			this->tabPage2->Controls->Add(this->groupBox7);
+			this->tabPage2->Location = System::Drawing::Point(4, 22);
+			this->tabPage2->Name = L"tabPage2";
+			this->tabPage2->Padding = System::Windows::Forms::Padding(3);
+			this->tabPage2->Size = System::Drawing::Size(1335, 712);
+			this->tabPage2->TabIndex = 1;
+			this->tabPage2->Text = L"tabPage2";
+			this->tabPage2->UseVisualStyleBackColor = true;
+			// 
+			// groupBox9
+			// 
+			this->groupBox9->Controls->Add(this->dataGridView2);
+			this->groupBox9->Controls->Add(this->button6);
+			this->groupBox9->Controls->Add(this->checkBox3);
+			this->groupBox9->Controls->Add(this->label28);
+			this->groupBox9->Controls->Add(this->textBox7);
+			this->groupBox9->Controls->Add(this->label29);
+			this->groupBox9->Controls->Add(this->label30);
+			this->groupBox9->Controls->Add(this->label31);
+			this->groupBox9->Controls->Add(this->textBox8);
+			this->groupBox9->Controls->Add(this->textBox9);
+			this->groupBox9->Location = System::Drawing::Point(36, 377);
+			this->groupBox9->Name = L"groupBox9";
+			this->groupBox9->Size = System::Drawing::Size(809, 189);
+			this->groupBox9->TabIndex = 13;
+			this->groupBox9->TabStop = false;
+			this->groupBox9->Text = L"DESARROLLADOR";
+			// 
+			// dataGridView2
+			// 
+			this->dataGridView2->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
+			this->dataGridView2->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(4) {
+				this->dataGridViewTextBoxColumn4,
+					this->dataGridViewTextBoxColumn5, this->dataGridViewTextBoxColumn6, this->dataGridViewCheckBoxColumn2
+			});
+			this->dataGridView2->Location = System::Drawing::Point(362, 19);
+			this->dataGridView2->Name = L"dataGridView2";
+			this->dataGridView2->Size = System::Drawing::Size(437, 150);
+			this->dataGridView2->TabIndex = 24;
+			// 
+			// dataGridViewTextBoxColumn4
+			// 
+			this->dataGridViewTextBoxColumn4->HeaderText = L"ID";
+			this->dataGridViewTextBoxColumn4->Name = L"dataGridViewTextBoxColumn4";
+			this->dataGridViewTextBoxColumn4->ReadOnly = true;
+			// 
+			// dataGridViewTextBoxColumn5
+			// 
+			this->dataGridViewTextBoxColumn5->HeaderText = L"Nombres";
+			this->dataGridViewTextBoxColumn5->Name = L"dataGridViewTextBoxColumn5";
+			this->dataGridViewTextBoxColumn5->ReadOnly = true;
+			// 
+			// dataGridViewTextBoxColumn6
+			// 
+			this->dataGridViewTextBoxColumn6->HeaderText = L"Apellidos";
+			this->dataGridViewTextBoxColumn6->Name = L"dataGridViewTextBoxColumn6";
+			this->dataGridViewTextBoxColumn6->ReadOnly = true;
+			// 
+			// dataGridViewCheckBoxColumn2
+			// 
+			this->dataGridViewCheckBoxColumn2->HeaderText = L"Estado";
+			this->dataGridViewCheckBoxColumn2->Name = L"dataGridViewCheckBoxColumn2";
+			this->dataGridViewCheckBoxColumn2->ReadOnly = true;
+			// 
+			// button6
+			// 
+			this->button6->Location = System::Drawing::Point(247, 150);
+			this->button6->Name = L"button6";
+			this->button6->Size = System::Drawing::Size(75, 23);
+			this->button6->TabIndex = 23;
+			this->button6->Text = L"Agregar";
+			this->button6->UseVisualStyleBackColor = true;
+			// 
+			// checkBox3
+			// 
+			this->checkBox3->AutoSize = true;
+			this->checkBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->checkBox3->Location = System::Drawing::Point(160, 115);
+			this->checkBox3->Name = L"checkBox3";
+			this->checkBox3->Size = System::Drawing::Size(88, 24);
+			this->checkBox3->TabIndex = 22;
+			this->checkBox3->Text = L"Activo \?";
+			this->checkBox3->UseVisualStyleBackColor = true;
+			// 
+			// label28
+			// 
+			this->label28->AutoSize = true;
+			this->label28->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->label28->Location = System::Drawing::Point(13, 86);
+			this->label28->Name = L"label28";
+			this->label28->Size = System::Drawing::Size(103, 20);
+			this->label28->TabIndex = 21;
+			this->label28->Text = L"APELLIDOS";
+			// 
+			// textBox7
+			// 
+			this->textBox7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->textBox7->Location = System::Drawing::Point(122, 83);
+			this->textBox7->Name = L"textBox7";
+			this->textBox7->Size = System::Drawing::Size(162, 26);
+			this->textBox7->TabIndex = 20;
+			// 
+			// label29
+			// 
+			this->label29->AutoSize = true;
+			this->label29->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->label29->Location = System::Drawing::Point(13, 54);
+			this->label29->Name = L"label29";
+			this->label29->Size = System::Drawing::Size(94, 20);
+			this->label29->TabIndex = 18;
+			this->label29->Text = L"NOMBRES";
+			// 
+			// label30
+			// 
+			this->label30->AutoSize = true;
+			this->label30->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->label30->Location = System::Drawing::Point(13, 22);
+			this->label30->Name = L"label30";
+			this->label30->Size = System::Drawing::Size(26, 20);
+			this->label30->TabIndex = 16;
+			this->label30->Text = L"ID";
+			// 
+			// label31
+			// 
+			this->label31->AutoSize = true;
+			this->label31->Location = System::Drawing::Point(13, 61);
+			this->label31->Name = L"label31";
+			this->label31->Size = System::Drawing::Size(41, 13);
+			this->label31->TabIndex = 19;
+			this->label31->Text = L"label31";
+			// 
+			// textBox8
+			// 
+			this->textBox8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->textBox8->Location = System::Drawing::Point(122, 51);
+			this->textBox8->Name = L"textBox8";
+			this->textBox8->Size = System::Drawing::Size(162, 26);
+			this->textBox8->TabIndex = 15;
+			// 
+			// textBox9
+			// 
+			this->textBox9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->textBox9->Location = System::Drawing::Point(122, 19);
+			this->textBox9->Name = L"textBox9";
+			this->textBox9->Size = System::Drawing::Size(162, 26);
+			this->textBox9->TabIndex = 14;
+			// 
+			// groupBox7
+			// 
+			this->groupBox7->Controls->Add(this->dataGridView1);
+			this->groupBox7->Controls->Add(this->label22);
+			this->groupBox7->Controls->Add(this->textBox10);
+			this->groupBox7->Controls->Add(this->label18);
+			this->groupBox7->Controls->Add(this->textBox1);
+			this->groupBox7->Controls->Add(this->label19);
+			this->groupBox7->Controls->Add(this->label20);
+			this->groupBox7->Controls->Add(this->label21);
+			this->groupBox7->Controls->Add(this->textBox2);
+			this->groupBox7->Controls->Add(this->txtIDGERENTE);
+			this->groupBox7->Location = System::Drawing::Point(36, 39);
+			this->groupBox7->Name = L"groupBox7";
+			this->groupBox7->Size = System::Drawing::Size(809, 332);
+			this->groupBox7->TabIndex = 10;
+			this->groupBox7->TabStop = false;
+			this->groupBox7->Text = L"EMPLEADO";
+			// 
+			// label22
+			// 
+			this->label22->AutoSize = true;
+			this->label22->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->label22->Location = System::Drawing::Point(13, 118);
+			this->label22->Name = L"label22";
+			this->label22->Size = System::Drawing::Size(59, 20);
+			this->label22->TabIndex = 23;
+			this->label22->Text = L"BONO";
+			// 
+			// textBox10
+			// 
+			this->textBox10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->textBox10->Location = System::Drawing::Point(122, 115);
+			this->textBox10->Name = L"textBox10";
+			this->textBox10->Size = System::Drawing::Size(162, 26);
+			this->textBox10->TabIndex = 22;
+			// 
+			// label18
+			// 
+			this->label18->AutoSize = true;
+			this->label18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->label18->Location = System::Drawing::Point(13, 86);
+			this->label18->Name = L"label18";
+			this->label18->Size = System::Drawing::Size(81, 20);
+			this->label18->TabIndex = 21;
+			this->label18->Text = L"SALARIO";
+			// 
+			// textBox1
+			// 
+			this->textBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->textBox1->Location = System::Drawing::Point(122, 83);
+			this->textBox1->Name = L"textBox1";
+			this->textBox1->Size = System::Drawing::Size(162, 26);
+			this->textBox1->TabIndex = 20;
+			// 
+			// label19
+			// 
+			this->label19->AutoSize = true;
+			this->label19->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->label19->Location = System::Drawing::Point(13, 54);
+			this->label19->Name = L"label19";
+			this->label19->Size = System::Drawing::Size(94, 20);
+			this->label19->TabIndex = 18;
+			this->label19->Text = L"NOMBRES";
+			// 
+			// label20
+			// 
+			this->label20->AutoSize = true;
+			this->label20->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->label20->Location = System::Drawing::Point(13, 22);
+			this->label20->Name = L"label20";
+			this->label20->Size = System::Drawing::Size(26, 20);
+			this->label20->TabIndex = 16;
+			this->label20->Text = L"ID";
+			// 
+			// label21
+			// 
+			this->label21->AutoSize = true;
+			this->label21->Location = System::Drawing::Point(13, 61);
+			this->label21->Name = L"label21";
+			this->label21->Size = System::Drawing::Size(41, 13);
+			this->label21->TabIndex = 19;
+			this->label21->Text = L"label21";
+			// 
+			// textBox2
+			// 
+			this->textBox2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->textBox2->Location = System::Drawing::Point(122, 51);
+			this->textBox2->Name = L"textBox2";
+			this->textBox2->Size = System::Drawing::Size(162, 26);
+			this->textBox2->TabIndex = 15;
+			// 
+			// txtIDGERENTE
+			// 
+			this->txtIDGERENTE->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12.25F));
+			this->txtIDGERENTE->Location = System::Drawing::Point(122, 19);
+			this->txtIDGERENTE->Name = L"txtIDGERENTE";
+			this->txtIDGERENTE->Size = System::Drawing::Size(162, 26);
+			this->txtIDGERENTE->TabIndex = 14;
+			// 
+			// dataGridView1
+			// 
+			this->dataGridView1->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
+			this->dataGridView1->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(4) {
+				this->dataGridViewTextBoxColumn1,
+					this->dataGridViewTextBoxColumn2, this->dataGridViewTextBoxColumn3, this->dataGridViewCheckBoxColumn1
+			});
+			this->dataGridView1->Location = System::Drawing::Point(17, 156);
+			this->dataGridView1->Name = L"dataGridView1";
+			this->dataGridView1->Size = System::Drawing::Size(699, 150);
+			this->dataGridView1->TabIndex = 25;
+			// 
+			// dataGridViewTextBoxColumn1
+			// 
+			this->dataGridViewTextBoxColumn1->HeaderText = L"ID";
+			this->dataGridViewTextBoxColumn1->Name = L"dataGridViewTextBoxColumn1";
+			this->dataGridViewTextBoxColumn1->ReadOnly = true;
+			// 
+			// dataGridViewTextBoxColumn2
+			// 
+			this->dataGridViewTextBoxColumn2->HeaderText = L"Nombres";
+			this->dataGridViewTextBoxColumn2->Name = L"dataGridViewTextBoxColumn2";
+			this->dataGridViewTextBoxColumn2->ReadOnly = true;
+			// 
+			// dataGridViewTextBoxColumn3
+			// 
+			this->dataGridViewTextBoxColumn3->HeaderText = L"Apellidos";
+			this->dataGridViewTextBoxColumn3->Name = L"dataGridViewTextBoxColumn3";
+			this->dataGridViewTextBoxColumn3->ReadOnly = true;
+			// 
+			// dataGridViewCheckBoxColumn1
+			// 
+			this->dataGridViewCheckBoxColumn1->HeaderText = L"Estado";
+			this->dataGridViewCheckBoxColumn1->Name = L"dataGridViewCheckBoxColumn1";
+			this->dataGridViewCheckBoxColumn1->ReadOnly = true;
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1122, 611);
-			this->Controls->Add(this->groupBox5);
-			this->Controls->Add(this->groupBox4);
-			this->Controls->Add(this->groupBox3);
-			this->Controls->Add(this->groupBox2);
-			this->Controls->Add(this->groupBox1);
+			this->ClientSize = System::Drawing::Size(1367, 811);
+			this->Controls->Add(this->tabControl1);
 			this->Name = L"MyForm";
 			this->Text = L"MyForm";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
@@ -782,6 +1184,15 @@ namespace Project1 {
 			this->groupBox4->PerformLayout();
 			this->groupBox5->ResumeLayout(false);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->grdListadoPersonal))->EndInit();
+			this->tabControl1->ResumeLayout(false);
+			this->tabPage1->ResumeLayout(false);
+			this->tabPage2->ResumeLayout(false);
+			this->groupBox9->ResumeLayout(false);
+			this->groupBox9->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->EndInit();
+			this->groupBox7->ResumeLayout(false);
+			this->groupBox7->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
 			this->ResumeLayout(false);
 
 		}
@@ -884,7 +1295,8 @@ private: System::Void btnRadioButton_Click(System::Object^ sender, System::Event
 		MessageBox::Show("No se ha seleccionado ninguna opción");
 	}
 }
-private: System::Void btnAgregarAFila_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void btnAgregarAFila_Click(System::Object^ sender, System::EventArgs^ e) 
+{
 	// Obtener valores de los controles
 	String^ id = txtID->Text;
 	String^ nombres = txtNombresGRD->Text;
@@ -906,5 +1318,8 @@ private: System::Void btnAgregarAFila_Click(System::Object^ sender, System::Even
 	txtApellidos->Clear();
 	chkActivo->Checked = false;
 }
+
+
+
 };
 }
