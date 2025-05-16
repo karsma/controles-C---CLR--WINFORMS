@@ -3,56 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|solutionrelative:proyecto_ejemplo_Login_CPP_MYSQL\\Login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\frmUsuarios.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|solutionrelative:proyecto_ejemplo_Login_CPP_MYSQL\\frmUsuarios.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
-      "RelativeMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|solutionrelative:proyecto_ejemplo_Login_CPP_MYSQL\\Login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+      "AbsoluteMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\frmUsuarios.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|solutionrelative:proyecto_ejemplo_Login_CPP_MYSQL\\frmUsuarios.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|solutionrelative:proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|solutionrelative:proyecto_ejemplo_Login_CPP_MYSQL\\Login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\frmMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|solutionrelative:proyecto_ejemplo_Login_CPP_MYSQL\\frmMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|solutionrelative:proyecto_ejemplo_Login_CPP_MYSQL\\Login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|solutionrelative:proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|solutionrelative:proyecto_ejemplo_Login_CPP_MYSQL\\Login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\ConexionMySQL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|solutionrelative:proyecto_ejemplo_Login_CPP_MYSQL\\ConexionMySQL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\ConexionMySQL.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ED9736A8-D8AB-1D32-C82C-222C72124957}|proyecto_ejemplo_Login_CPP_MYSQL\\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj|solutionrelative:proyecto_ejemplo_Login_CPP_MYSQL\\ConexionMySQL.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9A45713-B64E-7E59-39CB-7A77BBE44754}|Project1\\Project1.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D9A45713-B64E-7E59-39CB-7A77BBE44754}|Project1\\Project1.vcxproj|solutionrelative:Project1\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9A45713-B64E-7E59-39CB-7A77BBE44754}|Project1\\Project1.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
-      "RelativeMoniker": "D:0:0:{D9A45713-B64E-7E59-39CB-7A77BBE44754}|Project1\\Project1.vcxproj|solutionrelative:Project1\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9A45713-B64E-7E59-39CB-7A77BBE44754}|Project1\\Project1.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\Gerente.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D9A45713-B64E-7E59-39CB-7A77BBE44754}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Gerente.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9A45713-B64E-7E59-39CB-7A77BBE44754}|Project1\\Project1.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\Desarrollador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D9A45713-B64E-7E59-39CB-7A77BBE44754}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Desarrollador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9A45713-B64E-7E59-39CB-7A77BBE44754}|Project1\\Project1.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\MyForm2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D9A45713-B64E-7E59-39CB-7A77BBE44754}|Project1\\Project1.vcxproj|solutionrelative:Project1\\MyForm2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9A45713-B64E-7E59-39CB-7A77BBE44754}|Project1\\Project1.vcxproj|C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\MyForm2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
-      "RelativeMoniker": "D:0:0:{D9A45713-B64E-7E59-39CB-7A77BBE44754}|Project1\\Project1.vcxproj|solutionrelative:Project1\\MyForm2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,78 +43,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Login.cpp",
-              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.cpp",
-              "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\Login.cpp",
-              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.cpp",
-              "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\Login.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-03T06:00:08.788Z",
-              "EditorCaption": ""
+              "Title": "frmMenu.h [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\frmMenu.h",
+              "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\frmMenu.h",
+              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\frmMenu.h [Dise\u00F1o]",
+              "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\frmMenu.h [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-10T14:49:48.389Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.h",
-              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.h",
-              "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\Login.h",
-              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.h",
-              "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\Login.h",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAawLgAAAAoAAAAAAAAAA==",
+              "Title": "frmUsuarios.h",
+              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\frmUsuarios.h",
+              "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\frmUsuarios.h",
+              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\frmUsuarios.h",
+              "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\frmUsuarios.h",
+              "ViewState": "AgIAADkBAAAAAAAAAAAmwEgBAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-03T05:34:46.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConexionMySQL.cpp",
-              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\ConexionMySQL.cpp",
-              "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\ConexionMySQL.cpp",
-              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\ConexionMySQL.cpp",
-              "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\ConexionMySQL.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-03T05:20:59.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuario.h",
-              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.h",
-              "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.h",
-              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.h",
-              "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-03T05:15:20.57Z",
+              "WhenOpened": "2025-05-10T14:33:25.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.h [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.h",
-              "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\Login.h",
-              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.h [Dise\u00F1o]",
-              "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\Login.h [Dise\u00F1o]",
+              "Title": "frmUsuarios.h [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\frmUsuarios.h",
+              "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\frmUsuarios.h",
+              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\frmUsuarios.h [Dise\u00F1o]",
+              "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\frmUsuarios.h [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-03T04:38:44.747Z",
+              "WhenOpened": "2025-05-10T14:29:45.948Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ConexionMySQL.h",
-              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\ConexionMySQL.h",
-              "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\ConexionMySQL.h",
-              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\ConexionMySQL.h",
-              "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\ConexionMySQL.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "Usuario.h",
+              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.h",
+              "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.h",
+              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.h",
+              "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-03T05:14:15.96Z",
+              "WhenOpened": "2025-05-10T14:20:04.794Z",
               "EditorCaption": ""
             },
             {
@@ -149,80 +98,35 @@
               "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.cpp",
               "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.cpp",
               "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\Usuario.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-03T05:15:31.053Z",
+              "WhenOpened": "2025-05-10T14:14:06.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Gerente.h",
-              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\Gerente.h",
-              "RelativeDocumentMoniker": "Project1\\Gerente.h",
-              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\Gerente.h",
-              "RelativeToolTip": "Project1\\Gerente.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Login.h",
+              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.h",
+              "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\Login.h",
+              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.h",
+              "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\Login.h",
+              "ViewState": "AgIAAJQAAAAAAAAAAAArwLIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-03T05:09:04.675Z"
+              "WhenOpened": "2025-05-10T14:11:54.571Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Desarrollador.cpp",
-              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\Desarrollador.cpp",
-              "RelativeDocumentMoniker": "Project1\\Desarrollador.cpp",
-              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\Desarrollador.cpp",
-              "RelativeToolTip": "Project1\\Desarrollador.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-03T05:08:59.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MyForm2.h",
-              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\MyForm2.h",
-              "RelativeDocumentMoniker": "Project1\\MyForm2.h",
-              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\MyForm2.h",
-              "RelativeToolTip": "Project1\\MyForm2.h",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Login.h [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.h",
+              "RelativeDocumentMoniker": "proyecto_ejemplo_Login_CPP_MYSQL\\Login.h",
+              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\proyecto_ejemplo_Login_CPP_MYSQL\\Login.h [Dise\u00F1o]",
+              "RelativeToolTip": "proyecto_ejemplo_Login_CPP_MYSQL\\Login.h [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-03T05:07:58.015Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MyForm.h",
-              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\MyForm.h",
-              "RelativeDocumentMoniker": "Project1\\MyForm.h",
-              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\MyForm.h",
-              "RelativeToolTip": "Project1\\MyForm.h",
-              "ViewState": "AgIAAMoEAAAAAAAAAAAAANUEAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-03T04:35:43.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MyForm.h [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\MyForm.h",
-              "RelativeDocumentMoniker": "Project1\\MyForm.h",
-              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\MyForm.h [Dise\u00F1o]",
-              "RelativeToolTip": "Project1\\MyForm.h [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-03T04:35:21.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MyForm2.h [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\MyForm2.h",
-              "RelativeDocumentMoniker": "Project1\\MyForm2.h",
-              "ToolTip": "C:\\Users\\TRON2\\Documents\\GitHub\\controles-C---CLR--WINFORMS\\Project1\\Project1\\MyForm2.h [Dise\u00F1o]",
-              "RelativeToolTip": "Project1\\MyForm2.h [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-03T04:35:18.743Z"
+              "WhenOpened": "2025-05-10T14:11:41.293Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

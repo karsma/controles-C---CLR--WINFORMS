@@ -1,5 +1,6 @@
 ﻿  Login.cpp
-  Usuario.cpp
+  frmMenu.cpp
+  frmUsuarios.cpp
   Generando código...
   ConexionMySQL.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
   proyecto_ejemplo_Login_CPP_MYSQL.vcxproj -> C:\Users\TRON2\Documents\GitHub\controles-C---CLR--WINFORMS\Project1\x64\Debug\proyecto_ejemplo_Login_CPP_MYSQL.exe

@@ -1,5 +1,7 @@
 #pragma once
 #include "Usuario.h"
+#include "frmMenu.h"
+
 
 namespace proyectoejemploLoginCPPMYSQL {
 
@@ -103,6 +105,7 @@ namespace proyectoejemploLoginCPPMYSQL {
 			this->txtContraseña->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.25F));
 			this->txtContraseña->Location = System::Drawing::Point(34, 225);
 			this->txtContraseña->Name = L"txtContraseña";
+			this->txtContraseña->PasswordChar = '*';
 			this->txtContraseña->Size = System::Drawing::Size(384, 32);
 			this->txtContraseña->TabIndex = 3;
 			// 
@@ -173,7 +176,8 @@ private: System::Void btnVerificarConexion_Click(System::Object^ sender, System:
 
 
 }
-private: System::Void btnIniciarSesion_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void btnIniciarSesion_Click(System::Object^ sender, System::EventArgs^ e) 
+{
 
 	String^ usuario = txtusuario->Text;  // Obtenemos el texto del textbox de usuario
 	String^ contrasena = txtContraseña->Text;  // Obtenemos el texto del textbox de contraseña
@@ -184,6 +188,11 @@ private: System::Void btnIniciarSesion_Click(System::Object^ sender, System::Eve
 	// Verificar si el usuario existe y es válido
 	if (nuevoUsuario->verificarUsuario()) {
 		MessageBox::Show("Inicio de sesión exitoso.");
+		//es para esconder el formulario login. 
+		this->Hide();
+		//muestro el menu de mi programa. 
+		frmMenu^ menu = gcnew frmMenu();
+		menu->Show();
 	}
 	else {
 		MessageBox::Show("Usuario o contraseña incorrectos.");

@@ -1,14 +1,23 @@
 #include "Usuario.h"
+using namespace proyectoejemploLoginCPPMYSQL;
 
 Usuario::Usuario() {
+    conexion = gcnew ConexionMySQL(); //abrir la conexion
+}
+
+//este contructor va servir para hacer la consulta al login
+Usuario::Usuario(String^ usuario, String^ contrasena) {
+    this->usuario = usuario;
+    this->contrasena = contrasena;   
     conexion = gcnew ConexionMySQL();
 }
 
-Usuario::Usuario(String^ usuario, String^ contrasena) {
+//este constructor va servir para crear un usuario
+Usuario::Usuario(String^ usuario, String^ contrasena, bool activo) {
     this->usuario = usuario;
     this->contrasena = contrasena;
     this->activo = activo;
-    this->idLogin = idLogin;
+    
     conexion = gcnew ConexionMySQL();
 }
 
@@ -32,13 +41,32 @@ int Usuario::getIdLogin() {
     return idLogin;
 }
 
+void Usuario::setUsuario(String^ usuario) {
+    this->usuario = usuario;
+}
+
+void Usuario::setContraseña(String^ contrasena) {
+    this->contrasena = contrasena;
+}
+
+void Usuario::setActivo(bool activo) {
+    this->activo = activo;
+}
+
+void Usuario::setIdLogin(int id) {
+    this->idLogin = id;
+}
+
+
 bool Usuario::verificarUsuario() {
     try {
+
         if (conexion->abrirConexion()) {
             // Usar el método getConexion() para acceder a la conexión
-            MySqlCommand^ cmd = gcnew MySqlCommand("SELECT * FROM login WHERE usuario = @usuario AND contraseña = @contrasena AND activo = 1", conexion->getConexion());
+            MySqlCommand^ cmd = gcnew MySqlCommand("SELECT * FROM login WHERE usuario = @usuario AND contraseña = @contrasena ", conexion->getConexion());
             cmd->Parameters->AddWithValue("@usuario", usuario);
             cmd->Parameters->AddWithValue("@contrasena", contrasena);
+            cmd->Parameters->AddWithValue("@activo", activo);
 
             MySqlDataReader^ reader = cmd->ExecuteReader();
             bool encontrado = reader->Read(); // Si encuentra al menos un registro
@@ -55,6 +83,37 @@ bool Usuario::verificarUsuario() {
     }
     return false;
 }
+
+List<Usuario^>^ Usuario::listarUsuarios() {
+    List<Usuario^>^ lista = gcnew List<Usuario^>();
+
+    try {
+        if (conexion->abrirConexion()) {
+            String^ query = "SELECT idLogin, usuario, contraseña, activo FROM login";
+            MySqlCommand^ cmd = gcnew MySqlCommand(query, conexion->getConexion());
+            MySqlDataReader^ reader = cmd->ExecuteReader();
+
+            while (reader->Read()) {
+                Usuario^ u = gcnew Usuario();
+                u->idLogin = reader->GetInt32("idLogin");
+                u->usuario = reader->GetString("usuario");
+                u->contrasena = reader->GetString("contraseña");
+                u->activo = reader->GetBoolean("activo");
+
+                lista->Add(u);
+            }
+
+            reader->Close();
+            conexion->cerrarConexion();
+        }
+    }
+    catch (Exception^ e) {
+        Console::WriteLine("Error al listar los usuarios: " + e->Message);
+    }
+
+    return lista;
+}
+
 
 bool Usuario::crearUsuario() {
     try {
@@ -84,7 +143,7 @@ bool Usuario::actualizarUsuario() {
             cmd->Parameters->AddWithValue("@usuario", usuario);
             cmd->Parameters->AddWithValue("@contrasena", contrasena);
             cmd->Parameters->AddWithValue("@idLogin", idLogin);
-
+           
             cmd->ExecuteNonQuery();
             conexion->cerrarConexion();
 

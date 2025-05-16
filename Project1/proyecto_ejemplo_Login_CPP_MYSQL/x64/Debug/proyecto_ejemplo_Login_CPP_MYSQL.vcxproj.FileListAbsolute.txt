@@ -1,4 +1,7 @@
 C:\Users\TRON2\Documents\GitHub\controles-C---CLR--WINFORMS\Project1\proyecto_ejemplo_Login_CPP_MYSQL\x64\Debug\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj.AssemblyReference.cache
+C:\Users\TRON2\Documents\GitHub\controles-C---CLR--WINFORMS\Project1\proyecto_ejemplo_Login_CPP_MYSQL\x64\Debug\proyectoejemploLoginCPPMYSQL.frmMenu.resources
+C:\Users\TRON2\Documents\GitHub\controles-C---CLR--WINFORMS\Project1\proyecto_ejemplo_Login_CPP_MYSQL\x64\Debug\proyectoejemploLoginCPPMYSQL.frmUsuarios.resources
 C:\Users\TRON2\Documents\GitHub\controles-C---CLR--WINFORMS\Project1\proyecto_ejemplo_Login_CPP_MYSQL\x64\Debug\proyectoejemploLoginCPPMYSQL.Login.resources
 C:\Users\TRON2\Documents\GitHub\controles-C---CLR--WINFORMS\Project1\proyecto_ejemplo_Login_CPP_MYSQL\x64\Debug\proyecto_ejemplo_Login_CPP_MYSQL.vcxproj.GenerateResource.cache
 C:\Users\TRON2\Documents\GitHub\controles-C---CLR--WINFORMS\Project1\proyecto_ejemplo_Login_CPP_MYSQL\x64\Debug\proyecto.1B423831.Up2Date
+C:\Users\TRON2\Documents\GitHub\controles-C---CLR--WINFORMS\Project1\proyecto_ejemplo_Login_CPP_MYSQL\x64\Debug\proyectoejemploLoginCPPMYSQL.frmMenu2.resources

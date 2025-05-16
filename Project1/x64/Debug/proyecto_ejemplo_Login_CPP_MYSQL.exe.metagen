@@ -1,3 +1,6 @@
+  proyectoejemploLoginCPPMYSQL.frmMenu.resources - Embedded, ContainedInManifestFile, 
+  proyectoejemploLoginCPPMYSQL.frmMenu2.resources - Embedded, ContainedInManifestFile, 
+  proyectoejemploLoginCPPMYSQL.frmUsuarios.resources - Embedded, ContainedInManifestFile, 
   proyectoejemploLoginCPPMYSQL.Login.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly proyecto_ejemplo_Login_CPP_MYSQL, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
@@ -26,7 +29,8 @@ Class ConexionMySQL: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     verificarConexion(): PrivateScope, Public, HideBySig
     getConexion(): PrivateScope, Public, HideBySig
     Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
-Class Usuario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class proyectoejemploLoginCPPMYSQL.Usuario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
     Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Interfaces:
@@ -36,11 +40,25 @@ Class Usuario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     getContraseña(): PrivateScope, Public, HideBySig
     getActivo(): PrivateScope, Public, HideBySig
     getIdLogin(): PrivateScope, Public, HideBySig
+    listarUsuarios(): PrivateScope, Public, HideBySig
     verificarUsuario(): PrivateScope, Public, HideBySig
     crearUsuario(): PrivateScope, Public, HideBySig
     actualizarUsuario(): PrivateScope, Public, HideBySig
     desactivarUsuario(): PrivateScope, Public, HideBySig
+    setUsuario(String): PrivateScope, Public, HideBySig
+    setContraseña(String): PrivateScope, Public, HideBySig
+    setActivo(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    setIdLogin(Int32): PrivateScope, Public, HideBySig
     Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class proyectoejemploLoginCPPMYSQL.frmUsuarios: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class proyectoejemploLoginCPPMYSQL.frmMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class proyectoejemploLoginCPPMYSQL.frmMenu2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class proyectoejemploLoginCPPMYSQL.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

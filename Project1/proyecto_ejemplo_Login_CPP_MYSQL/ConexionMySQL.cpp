@@ -1,17 +1,21 @@
 #include "ConexionMySQL.h"
 
+//crear el constructor
 ConexionMySQL::ConexionMySQL() {
-    conexion = gcnew MySqlConnection("Server=127.0.0.1;Database=bdprueba;Uid=root;Pwd=");
+    conexion = gcnew MySqlConnection("Server=localhost;Database=bdprueba;Uid=root;Pwd=");
 }
 
+//destructor del objeto 
 ConexionMySQL::~ConexionMySQL() {
     if (conexion) {
         delete conexion;
     }
 }
 
+//funcion que sirve para abri la base de datos
 bool ConexionMySQL::abrirConexion() {
-    try {
+    try 
+    {        
         conexion->Open();
         return true;
     }
@@ -22,6 +26,7 @@ bool ConexionMySQL::abrirConexion() {
 }
 
 void ConexionMySQL::cerrarConexion() {
+
     if (conexion->State == System::Data::ConnectionState::Open) {
         conexion->Close();
     }

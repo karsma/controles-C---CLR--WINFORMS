@@ -14,5 +14,5 @@ public:
     MySqlConnection^ getConexion();  // Método getter para obtener la conexión
 
 private:
-    MySqlConnection^ conexion;
+    MySqlConnection^ conexion; // 
 };

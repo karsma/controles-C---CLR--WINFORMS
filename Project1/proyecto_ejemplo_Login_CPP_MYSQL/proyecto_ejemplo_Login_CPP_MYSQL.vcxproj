@@ -122,17 +122,38 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConexionMySQL.cpp" />
+    <ClCompile Include="frmMenu.cpp" />
+    <ClCompile Include="frmMenu2.cpp" />
+    <ClCompile Include="frmUsuarios.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="Usuario.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConexionMySQL.h" />
+    <ClInclude Include="frmMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMenu2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmUsuarios.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Login.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu2.resx">
+      <DependentUpon>frmMenu2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.h</DependentUpon>
     </EmbeddedResource>

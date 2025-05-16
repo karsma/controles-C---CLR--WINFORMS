@@ -24,6 +24,15 @@
     <ClInclude Include="Usuario.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="frmMenu.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="frmUsuarios.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="frmMenu2.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConexionMySQL.cpp">
@@ -34,6 +43,15 @@
     </ClCompile>
     <ClCompile Include="Login.cpp">
       <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="frmMenu.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="frmUsuarios.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="frmMenu2.cpp">
+      <Filter>Archivos de encabezado</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
